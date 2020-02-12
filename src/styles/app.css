@@ -1,1 +1,90 @@
-/* No CSS *//*# sourceMappingURL=app.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  background: #c94dc9;
+  margin: 0;
+}
+
+.navigation {
+  height: 20vh;
+  padding-top: 40px;
+}
+
+.navigation h1 {
+  font-weight: 700;
+  color: #fff;
+}
+
+.navigation .nav-item a {
+  color: white;
+}
+
+.hero-text {
+  margin-top: 100px;
+}
+
+.hero-text h1 {
+  color: #fff;
+}
+
+.button {
+  margin-top: 60px;
+}
+
+.button .btn {
+  width: 200px;
+  height: 50px;
+}
+
+.button .btn-primary {
+  background: orange;
+}
+
+.service {
+  width: 100%;
+  height: 100vh;
+  background-color: #32cdc0;
+}
+
+.text-block {
+  margin-top: 100px;
+}
+
+.text-block h1 {
+  letter-spacing: 5.5px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.text-block .borderbt {
+  margin: 20px;
+  border: 3px solid #5c9e5a;
+  width: 40px;
+}
+
+.text-block p {
+  color: #fff;
+}
+
+.icons-block {
+  width: 1000px;
+  height: 300px;
+  background-color: #c94dc9;
+  margin-top: 40px;
+}
+
+.icons-block .card-block {
+  width: 200px;
+  height: 200px;
+}
+
+.icons-block img {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=app.css.map */
