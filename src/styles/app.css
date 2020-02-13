@@ -24,25 +24,28 @@
   color: white;
 }
 
-.hero-text {
-  margin-top: 100px;
+.hero {
+  width: 900px;
+  height: 600px;
 }
 
-.hero-text h1 {
+.hero h1 {
   color: #fff;
+  font-weight: 400;
 }
 
-.button {
+.hero button {
   margin-top: 60px;
 }
 
-.button .btn {
+.hero .btn {
   width: 200px;
   height: 50px;
 }
 
-.button .btn-primary {
+.hero .btn-primary {
   background: orange;
+  border: none;
 }
 
 .service {
@@ -52,7 +55,7 @@
 }
 
 .text-block {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .text-block h1 {
@@ -75,7 +78,7 @@
   width: 1000px;
   height: 250px;
   background-color: #c94dc9;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .icons-block .card-block {
@@ -85,8 +88,8 @@
 }
 
 .icons-block img {
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .icons-block h3 {
@@ -102,5 +105,330 @@
   width: 100%;
   height: 100vh;
   background-color: lightblue;
+}
+
+.team-text h1 {
+  letter-spacing: 5.5px;
+  font-weight: 400;
+  color: #294969;
+}
+
+.team-text p {
+  color: #294969;
+}
+
+.team-text .borderbt {
+  margin: 20px;
+  border: 3px solid #5c9e5a;
+  width: 60px;
+}
+
+.team-block {
+  width: 1000px;
+  margin-top: 30px;
+}
+
+.team-block-box {
+  width: 200px;
+  padding: 20px;
+  margin: 10px 10px;
+  margin-top: 50px;
+}
+
+.team-block-box h4 {
+  color: #294969;
+}
+
+.team-block-box span {
+  color: blue;
+  margin-top: 10px;
+}
+
+.team-block-box p {
+  margin-top: 10px;
+}
+
+.team-block-box .circule img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.port-block {
+  width: 100%;
+  background-color: wheat;
+}
+
+.port-block .port-text {
+  margin-top: 50px;
+}
+
+.port-block .borderbt {
+  margin: 20px;
+  border: 3px solid #5c9e5a;
+  width: 60px;
+}
+
+.port-block .button {
+  background-color: #ceba97;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px px;
+  cursor: pointer;
+}
+
+.port-block .port-images .img-box img {
+  width: 480px;
+  height: 400px;
+}
+
+.port-block .grBtn {
+  background-color: #518643;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px 20px;
+  cursor: pointer;
+}
+
+.touch {
+  width: 100%;
+  height: 100vh;
+  background-color: #4848c2;
+  position: absolute;
+}
+
+.touch-text {
+  margin-top: 50px;
+}
+
+.touch-text h1 {
+  color: #fff;
+}
+
+.touch-text p {
+  color: #fff;
+}
+
+.touch-text .borderbt {
+  margin: 20px;
+  border: 3px solid #16273b;
+  width: 60px;
+}
+
+.touch .touch-input form .small-in {
+  margin: 10px;
+  width: 30%;
+  height: 50px;
+  background-color: #4674aa;
+  border: none;
+}
+
+.touch .touch-input form .large-in {
+  margin: 10px;
+  width: 61.5%;
+  height: 150px;
+  border: none;
+  background-color: #4674aa;
+}
+
+.touch .touch-input ::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+  text-align: left;
+}
+
+.touch .touch-input :-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+  text-align: left;
+}
+
+.touch .touch-input ::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+  text-align: left;
+}
+
+.touch .touch-input ::placeholder {
+  color: #fff;
+  opacity: 1;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    width: 600px;
+  }
+  .icons-block {
+    width: 700px;
+    margin-top: 40px;
+  }
+  .icons-block .card-block {
+    width: 150px;
+  }
+  .icons-block .card-block img {
+    width: 70px;
+    height: 70px;
+  }
+  .icons-block .card-block h3,
+  .icons-block .card-block p {
+    font-size: medium;
+  }
+  .team-text {
+    margin-top: -40px;
+  }
+  .team-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 700px;
+  }
+  .team-block-box {
+    width: 170px;
+    margin-top: 100px;
+  }
+  .team-block-box h4,
+  .team-block-box span,
+  .team-block-box p {
+    font-size: medium;
+  }
+  .team-block-box .circule img {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+  }
+  .team-block-box .icon-box img {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .navigation h1 {
+    display: none;
+  }
+  .navigation .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .navigation .nav-item a {
+    font-size: 10px;
+  }
+  .hero {
+    width: 350px;
+  }
+  .hero .btn {
+    width: 150px;
+    height: 30px;
+  }
+  .service {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 350px;
+    margin-top: 70px;
+  }
+  .icons-block {
+    width: 350px;
+    height: 200px;
+  }
+  .icons-block .card-block {
+    width: 100%;
+    margin-top: -20px;
+  }
+  .icons-block .card-block img {
+    width: 40px;
+    height: 40px;
+  }
+  .icons-block .card-block h3,
+  .icons-block .card-block p {
+    font-size: x-small;
+  }
+  .team {
+    height: 100%;
+  }
+  .team h1 {
+    margin-top: 70px;
+  }
+  .team-text {
+    width: 350px;
+  }
+  .team-block {
+    width: 340px;
+    margin-bottom: 50px;
+  }
+  .team-block-box {
+    width: 200px;
+    height: 150px;
+  }
+  .team-block-box h4,
+  .team-block-box span,
+  .team-block-box p {
+    font-size: small;
+  }
+  .team-block-box .circule img {
+    width: 70px;
+    height: 70px;
+  }
+  .team-block-box .icon-box img {
+    width: 15px;
+  }
+}
+
+.port-block {
+  width: 100%;
 }
 /*# sourceMappingURL=app.css.map */
